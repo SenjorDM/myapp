@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version: '1.25.6'
-          cahe: true
+          caсhe: true
       
       - name: Build
         run: go build ./...
@@ -36,7 +36,7 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version: '1.25.6'
-          cashe: true
+          caсhe: true
 
       - name: Run golangci-lint
         uses: golangci/golangci-lint-action@v7
