@@ -3,7 +3,9 @@ package main
 import "testing"
 
 func TestAdd(t *testing.T) {
-if Add(2,3) != 5{
-     t.Fatal("Add(2,3) must be return 5")
-}
+	got := Add(2, 3)
+
+	if got != 5 {
+		t.Fatalf("Add(2,3) = %d; want 5", got)
+	}
 }
