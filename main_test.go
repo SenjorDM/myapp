@@ -9,3 +9,7 @@ func TestAdd(t *testing.T) {
 		t.Fatalf("Add(2,3) = %d; want 5", got)
 	}
 }
+
+func TestRun(t *testing.T) {
+	run()
+}
